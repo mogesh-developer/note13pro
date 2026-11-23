@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build artifacts
+build/
+dist/
+release/
+app_dist/
+*.spec
+
+# Reference binary (proprietary reference executable)
+reference apkk/
+*.exe
+
+# Driver downloads / temporary zips
+drivers_pack/
+xiaomi_official_drivers/
+
+# Local databases & logs
+*.db
+*.log
+
+# Analysis working directory
+analysis/extracted/

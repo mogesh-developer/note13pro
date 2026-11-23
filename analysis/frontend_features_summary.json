@@ -1,0 +1,698 @@
+{
+  "app.js": {
+    "size": 36225,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/browse",
+      "/api/contact/compose",
+      "/api/exit",
+      "/api/extract-image",
+      "/api/firmware",
+      "/api/firmware/browser-download",
+      "/api/firmware/download",
+      "/api/firmware/download-control",
+      "/api/firmware/find",
+      "/api/flash-image",
+      "/api/images/view",
+      "/api/inspect",
+      "/api/install-platform-tools",
+      "/api/jobs",
+      "/api/license/activate",
+      "/api/license/renew",
+      "/api/license/status",
+      "/api/logs",
+      "/api/open-social",
+      "/api/pull-patched",
+      "/api/push-stock",
+      "/api/reboot",
+      "/api/scan",
+      "/api/settings",
+      "/api/state",
+      "/api/stock/open-stage",
+      "/api/support/check",
+      "/api/support/send",
+      "/api/updates"
+    ],
+    "functions": [
+      "GenuiOpenServerLink",
+      "activateThisPC",
+      "api",
+      "bindUI",
+      "browserDownload",
+      "checkUpdates",
+      "composeEmail",
+      "copyFirmwareLink",
+      "extractStock",
+      "fillSettings",
+      "flashImage",
+      "infoDialog",
+      "init",
+      "inspectROM",
+      "isVersionGreater",
+      "loadSupportReplies",
+      "lockWarning",
+      "markIndexedLatest",
+      "modal",
+      "navigate"
+    ]
+  },
+  "features.js": {
+    "size": 36128,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/boot-once",
+      "/api/dialer/action",
+      "/api/dialer/status",
+      "/api/extraction/recent",
+      "/api/flash-script/preview",
+      "/api/images/extract",
+      "/api/images/list",
+      "/api/images/view",
+      "/api/manual-command/preview",
+      "/api/open-social",
+      "/api/packages",
+      "/api/packages/change",
+      "/api/packages/history",
+      "/api/packages/metadata",
+      "/api/recovery/method",
+      "/api/root/images",
+      "/api/root/pull",
+      "/api/wipe/fastboot",
+      "/api/youtube/latest",
+      "/api/youtube/open"
+    ],
+    "functions": [
+      "applyLanguage",
+      "bindExtraUI",
+      "bootRecoveryOnce",
+      "changePackages",
+      "dialerInstall",
+      "dialerRemove",
+      "dialerRestore",
+      "dialerStatus",
+      "discoverImages",
+      "extractImages",
+      "issue",
+      "latestYoutube",
+      "listAndPullRootImage",
+      "loadPackageHistory",
+      "loadPackageMetadataSoon",
+      "manualAction",
+      "previewFlashScript",
+      "renderPackages",
+      "restoreAllPackages",
+      "scanBloatware"
+    ]
+  },
+  "v04.js": {
+    "size": 8820,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/jobs",
+      "/api/logs",
+      "/api/root/official-download",
+      "/api/stock/flash",
+      "/api/stock/plan",
+      "/api/stock/stage"
+    ],
+    "functions": [
+      "beginFlashAll",
+      "checkSaveData",
+      "copyLiveLog",
+      "exportLiveLog",
+      "logJobMatches",
+      "makeFlashPlan",
+      "pageLogLines",
+      "pageLogMatches",
+      "refreshEmbeddedLogs",
+      "reviewLockMode"
+    ]
+  },
+  "v06.js": {
+    "size": 3630,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/diagnostics/preflight",
+      "/api/ota/inspect"
+    ],
+    "functions": [
+      "inspectOTAFrom",
+      "runReadOnlyPreflight"
+    ]
+  },
+  "v07.js": {
+    "size": 12533,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/browse",
+      "/api/images/extract",
+      "/api/images/list",
+      "/api/images/view",
+      "/api/jobs",
+      "/api/stock/stage"
+    ],
+    "functions": [
+      "chooseFlashInput",
+      "chooseWindowsPath",
+      "finalFlashMethodChoice",
+      "flashFileName",
+      "linkROMToExtractor",
+      "selectedPath",
+      "setSourceBadge",
+      "sourceChoices",
+      "stageWithDestination"
+    ]
+  },
+  "v09.js": {
+    "size": 46073,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/commands/run",
+      "/api/images/extract",
+      "/api/jobs",
+      "/api/scan",
+      "/api/stock/delete-stage",
+      "/api/stock/image-batch-flash",
+      "/api/stock/image-batch-plan",
+      "/api/stock/images-preview",
+      "/api/stock/official-flash",
+      "/api/stock/open-stage",
+      "/api/stock/plan",
+      "/api/stock/script-modes",
+      "/api/stock/stage",
+      "/api/stock/stage-roots",
+      "/api/stock/staged-plan",
+      "/api/telegram/open",
+      "/api/telegram/posts"
+    ],
+    "functions": [
+      "v0912FlashGuard",
+      "v0912FlashImages",
+      "v0912UpdateCount",
+      "v0912UpdateScriptHint",
+      "v0913LockWarning",
+      "v0913MismatchPrompt",
+      "v0913VerifySelectedFolder",
+      "v0914FlashImages",
+      "v0937TelegramInterval",
+      "v0953PreflashConsent",
+      "v096ShowTelegramEmpty",
+      "v09Browse",
+      "v09CommandRun",
+      "v09ExtractImages",
+      "v09FastbootStatus",
+      "v09Flash",
+      "v09Jobs",
+      "v09Language",
+      "v09ListImages",
+      "v09ManualRootFlash"
+    ]
+  },
+  "v091.js": {
+    "size": 2236,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": []
+  },
+  "v0911.js": {
+    "size": 16918,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/images/scan",
+      "/api/jobs"
+    ],
+    "functions": [
+      "clock",
+      "countCatalogText",
+      "elapsed",
+      "init",
+      "inspectHeartbeat",
+      "liveTrack",
+      "poll",
+      "renderCatalog",
+      "scan",
+      "scanButton",
+      "scanDisplay",
+      "scanHeartbeat",
+      "setLayout",
+      "watchExtraction"
+    ]
+  },
+  "v0913.js": {
+    "size": 5029,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/jobs",
+      "/api/jobs/cancel"
+    ],
+    "functions": [
+      "currentJob",
+      "paint",
+      "update"
+    ]
+  },
+  "v0914.js": {
+    "size": 4281,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": [
+      "init"
+    ]
+  },
+  "v0915.js": {
+    "size": 9638,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/device/erase",
+      "/api/sideload/local"
+    ],
+    "functions": [
+      "bootCommands",
+      "bootRecovery",
+      "deviceActions",
+      "fastbootUI",
+      "init",
+      "rebuildCommandButtons",
+      "refreshDetails",
+      "select"
+    ]
+  },
+  "v0919_flash_ui.js": {
+    "size": 2802,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": [
+      "base",
+      "freshSignature",
+      "jobLabel"
+    ]
+  },
+  "v0919_usb.js": {
+    "size": 3198,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/sideload/reboot",
+      "/api/sideload/usb/cancel-wait",
+      "/api/sideload/usb/start"
+    ],
+    "functions": [
+      "init",
+      "markStages",
+      "rebootInRecoveryTab"
+    ]
+  },
+  "v0923_mi_unlock.js": {
+    "size": 5488,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/browse",
+      "/api/jobs",
+      "/api/mi-unlock/driver",
+      "/api/mi-unlock/launch",
+      "/api/mi-unlock/open-folder",
+      "/api/mi-unlock/prepare",
+      "/api/mi-unlock/select",
+      "/api/mi-unlock/status",
+      "/api/scan"
+    ],
+    "functions": [
+      "chooseZip",
+      "driver",
+      "getStatus",
+      "launch",
+      "prepare",
+      "prepareJobStatus",
+      "scan"
+    ]
+  },
+  "v0924_mi_unlock_guided.js": {
+    "size": 4700,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/mi-unlock/integrated/probe",
+      "/api/mi-unlock/integrated/reset",
+      "/api/mi-unlock/integrated/start",
+      "/api/mi-unlock/integrated/status"
+    ],
+    "functions": [
+      "probe",
+      "refresh",
+      "render",
+      "reset",
+      "start",
+      "statusNote",
+      "tab",
+      "updateStep"
+    ]
+  },
+  "v0925_mi_unlock_cmd.js": {
+    "size": 4924,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/mi-unlock/cmd/input",
+      "/api/mi-unlock/cmd/setup",
+      "/api/mi-unlock/cmd/start",
+      "/api/mi-unlock/cmd/status",
+      "/api/mi-unlock/cmd/verify"
+    ],
+    "functions": [
+      "activate",
+      "refresh",
+      "render",
+      "setup",
+      "start",
+      "submit",
+      "verify"
+    ]
+  },
+  "v0927_manual.js": {
+    "size": 4531,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/actions/delete",
+      "/api/actions/list",
+      "/api/actions/save",
+      "/api/commands/manual",
+      "/api/jobs"
+    ],
+    "functions": [
+      "init",
+      "reload",
+      "render",
+      "runCommand"
+    ]
+  },
+  "v0927_mi_unlock.js": {
+    "size": 15185,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/jobs",
+      "/api/mi-unlock/cmd/setup",
+      "/api/mi-unlock/cmd/status",
+      "/api/mi-unlock/guided/answer",
+      "/api/mi-unlock/guided/cancel",
+      "/api/mi-unlock/guided/login",
+      "/api/mi-unlock/guided/logout",
+      "/api/mi-unlock/install-driver",
+      "/api/mi-unlock/phone",
+      "/api/reboot"
+    ],
+    "functions": [
+      "answer",
+      "driverStatus",
+      "login",
+      "note",
+      "probe",
+      "refresh",
+      "show",
+      "updateStatus"
+    ]
+  },
+  "v0928_download_manager.js": {
+    "size": 14000,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/downloads/control",
+      "/api/downloads/remove",
+      "/api/downloads/start",
+      "/api/firmware/download-control",
+      "/api/firmware/download-retry",
+      "/api/images/view",
+      "/api/jobs"
+    ],
+    "functions": [
+      "btn",
+      "clipboardCopy",
+      "control",
+      "element",
+      "init",
+      "openDownloads",
+      "pasteFromClipboard",
+      "refresh",
+      "removeDownloads",
+      "renderCard",
+      "retry",
+      "showLinkEditor",
+      "startFromURL",
+      "updateSelectionCount"
+    ]
+  },
+  "v093.js": {
+    "size": 5339,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": [
+      "explain",
+      "init",
+      "setTab"
+    ]
+  },
+  "v0936_download_browser.js": {
+    "size": 8442,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/download-browser/choose",
+      "/api/download-browser/inspect",
+      "/api/download-browser/mode",
+      "/api/download-browser/open",
+      "/api/download-browser/state"
+    ],
+    "functions": [
+      "callDirectForm",
+      "captureCard",
+      "clearUnknown",
+      "control",
+      "decide",
+      "init",
+      "interceptPaste",
+      "openBrowser",
+      "pastedLink",
+      "refresh",
+      "render",
+      "safeTextHost",
+      "status",
+      "toggleSave",
+      "unknown"
+    ]
+  },
+  "v0937_activity.js": {
+    "size": 5139,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/download-browser/state"
+    ],
+    "functions": [
+      "fromJobs",
+      "pageFor",
+      "pageForRequest",
+      "pollBrowser",
+      "render"
+    ]
+  },
+  "v0938_root.js": {
+    "size": 5955,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/jobs",
+      "/api/root/download-apk",
+      "/api/root/flash-patched",
+      "/api/root/method-research",
+      "/api/scan"
+    ],
+    "functions": [
+      "downloadAPK",
+      "effectiveCommand",
+      "go",
+      "pollFlash",
+      "preview",
+      "renderSources",
+      "research",
+      "setLog",
+      "setMode",
+      "showDevice"
+    ]
+  },
+  "v0939_activation.js": {
+    "size": 3759,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": [
+      "block",
+      "browse",
+      "closePreview",
+      "openActivation",
+      "openWelcomePreview",
+      "setGate"
+    ]
+  },
+  "v0940_hybrid.js": {
+    "size": 9299,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/browse",
+      "/api/hybrid/cancel",
+      "/api/hybrid/extract",
+      "/api/hybrid/inspect",
+      "/api/hybrid/reply",
+      "/api/hybrid/start",
+      "/api/jobs",
+      "/api/open-social"
+    ],
+    "functions": [
+      "browse",
+      "choices",
+      "closePrompt",
+      "extract",
+      "fail",
+      "getPrompt",
+      "init",
+      "inspect",
+      "openPrompt",
+      "poll",
+      "promptWatcher",
+      "reply",
+      "run",
+      "selected",
+      "setReady",
+      "showScripts",
+      "status",
+      "stop"
+    ]
+  },
+  "v0942_aosp.js": {
+    "size": 2889,
+    "fetch_calls": [
+      "/api/aosp-roms"
+    ],
+    "api_endpoints": [
+      "/api/aosp-roms",
+      "/api/aosp-roms/open"
+    ],
+    "functions": [
+      "render",
+      "start"
+    ]
+  },
+  "v0943_remote_img.js": {
+    "size": 8663,
+    "fetch_calls": [
+      "/api/images/remote/inspect"
+    ],
+    "api_endpoints": [
+      "/api/images/remote/extract",
+      "/api/images/remote/inspect",
+      "/api/images/view",
+      "/api/jobs"
+    ],
+    "functions": [
+      "inspectProgress",
+      "reset",
+      "selected",
+      "setExpanded",
+      "status",
+      "updateJob"
+    ]
+  },
+  "v0945_support.js": {
+    "size": 2306,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/contact/open"
+    ],
+    "functions": [
+      "body",
+      "copy",
+      "getVersion",
+      "open",
+      "status",
+      "validate"
+    ]
+  },
+  "v0945_welcome.js": {
+    "size": 924,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": [
+      "finish"
+    ]
+  },
+  "v095.js": {
+    "size": 4473,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/images/view",
+      "/api/jobs",
+      "/api/logs"
+    ],
+    "functions": [
+      "deviceLine",
+      "init",
+      "setRecoveryMode",
+      "status"
+    ]
+  },
+  "v0952_drivers.js": {
+    "size": 5328,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/browse",
+      "/api/drivers/browse-inf",
+      "/api/drivers/install-signed-inf",
+      "/api/drivers/open",
+      "/api/drivers/status",
+      "/api/install-platform-tools"
+    ],
+    "functions": [
+      "chooseINF",
+      "copy",
+      "init",
+      "install",
+      "installINF",
+      "openGuide",
+      "refresh"
+    ]
+  },
+  "v0958_recovery_manual.js": {
+    "size": 2211,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/commands/manual"
+    ],
+    "functions": [
+      "init"
+    ]
+  },
+  "v096.js": {
+    "size": 3964,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": [
+      "init"
+    ]
+  },
+  "v097.js": {
+    "size": 657,
+    "fetch_calls": [],
+    "api_endpoints": [],
+    "functions": [
+      "init"
+    ]
+  },
+  "v099.js": {
+    "size": 6987,
+    "fetch_calls": [],
+    "api_endpoints": [
+      "/api/archive/extract",
+      "/api/archive/inspect"
+    ],
+    "functions": [
+      "browse",
+      "copyLog",
+      "extract",
+      "failStatus",
+      "init",
+      "inspect",
+      "showMode"
+    ]
+  }
+}

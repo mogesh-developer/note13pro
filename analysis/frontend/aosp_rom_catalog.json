@@ -1,0 +1,163 @@
+[
+  {
+    "id": "lineageos",
+    "name": "LineageOS",
+    "url": "https://download.lineageos.org/devices",
+    "kind": "downloads",
+    "note": "Project-maintained device catalog"
+  },
+  {
+    "id": "crdroid",
+    "name": "crDroid",
+    "url": "https://crdroid.net/downloads",
+    "kind": "downloads",
+    "note": "Official download directory with Xiaomi devices"
+  },
+  {
+    "id": "evolutionx",
+    "name": "Evolution X",
+    "url": "https://cdn.evolution-x.org/",
+    "kind": "downloads",
+    "note": "Official Evolution X build CDN"
+  },
+  {
+    "id": "pixelos",
+    "name": "PixelOS",
+    "url": "https://pixelos.net/download",
+    "kind": "downloads",
+    "note": "Official PixelOS device downloads"
+  },
+  {
+    "id": "derpfest",
+    "name": "DerpFest",
+    "url": "https://sourceforge.net/projects/derpfest/files/",
+    "kind": "downloads",
+    "note": "Project-listed official SourceForge ROM files"
+  },
+  {
+    "id": "blissroms",
+    "name": "BlissRoms",
+    "url": "https://blissroms.org/downloads",
+    "kind": "downloads",
+    "note": "Official supported-device download catalog"
+  },
+  {
+    "id": "infinityx",
+    "name": "Project Infinity X",
+    "url": "https://projectinfinity-x.com/downloads/",
+    "kind": "downloads",
+    "note": "Official device ROM download page"
+  },
+  {
+    "id": "matrixx",
+    "name": "Project Matrixx",
+    "url": "https://www.projectmatrixx.com/downloads",
+    "kind": "downloads",
+    "note": "Official supported-device downloads"
+  },
+  {
+    "id": "axionos",
+    "name": "AxionOS",
+    "url": "https://www.axionos.org/download",
+    "kind": "downloads",
+    "note": "Official supported devices and downloads"
+  },
+  {
+    "id": "alphadroid",
+    "name": "AlphaDroid",
+    "url": "https://sourceforge.net/projects/alphadroid-project/files/",
+    "kind": "downloads",
+    "note": "Project-associated releases at SourceForge"
+  },
+  {
+    "id": "lunaris",
+    "name": "Lunaris AOSP",
+    "url": "https://github.com/Lunaris-AOSP",
+    "kind": "source",
+    "note": "Official project source; no universal official download index verified"
+  },
+  {
+    "id": "risingos",
+    "name": "RisingOS Revived",
+    "url": "https://sourceforge.net/projects/risingos-revived/files/",
+    "kind": "downloads",
+    "note": "Official project release files"
+  },
+  {
+    "id": "yaap",
+    "name": "YAAP",
+    "url": "https://yaaprom.org/",
+    "kind": "downloads",
+    "note": "Official supported devices and their download buttons"
+  },
+  {
+    "id": "elixir",
+    "name": "Project Elixir",
+    "url": "https://projectelixiros.com/download",
+    "kind": "paid",
+    "note": "Official download catalog; some later builds require paid membership"
+  },
+  {
+    "id": "eos",
+    "name": "/e/OS",
+    "url": "https://doc.e.foundation/devices/",
+    "kind": "downloads",
+    "note": "Official and community builds are distinguished on project device pages"
+  },
+  {
+    "id": "voltage",
+    "name": "VoltageOS",
+    "url": "https://sourceforge.net/projects/voltage-os/files/",
+    "kind": "downloads",
+    "note": "Official project ROM files"
+  },
+  {
+    "id": "arrow",
+    "name": "ArrowOS",
+    "url": "https://sourceforge.net/projects/arrow-os/files/",
+    "kind": "legacy",
+    "note": "Legacy build archive; current support not assumed"
+  },
+  {
+    "id": "havoc",
+    "name": "Havoc-OS",
+    "url": "https://havoc-os.com/download",
+    "kind": "downloads",
+    "note": "Official project download catalog; check per-device dates"
+  },
+  {
+    "id": "aicp",
+    "name": "AICP",
+    "url": "https://dwnld.aicp-rom.com/",
+    "kind": "downloads",
+    "note": "Official Android Ice Cold Project download site"
+  },
+  {
+    "id": "omni",
+    "name": "OmniROM",
+    "url": "https://omnirom.org/",
+    "kind": "closed",
+    "note": "Project officially closed; no current releases"
+  },
+  {
+    "id": "paranoid",
+    "name": "Paranoid Android (AOSPA)",
+    "url": "https://paranoidandroid.co/",
+    "kind": "legacy",
+    "note": "Project site; current Xiaomi download catalog not verified"
+  },
+  {
+    "id": "resurrection",
+    "name": "Resurrection Remix",
+    "url": "https://resurrectionremix.com/",
+    "kind": "legacy",
+    "note": "Legacy official project site; old Android releases only"
+  },
+  {
+    "id": "pixelexperience",
+    "name": "Pixel Experience",
+    "url": "https://get.pixelexperience.org/",
+    "kind": "closed",
+    "note": "Project discontinued in 2024; retained archive/download portal"
+  }
+]
